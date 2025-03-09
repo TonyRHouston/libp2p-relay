@@ -1,9 +1,29 @@
 {
   "name": "libp2p-relay",
   "version": "0.0.1",
-  "description": "A multi platform libp2p relay server with built in messaging.",
+  "description": "A foundation for scalable desktop apps",
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "libp2p",
+    "relay",
+    "ts",
+    "sass",
+    "webpack",
+    "hot",
+    "reload"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyRHouston/libp2p-relay.git"
+  },
   "license": "MIT",
-  "author": "github:tonyrhouston",
+  "author": {
+    "name": "Tony R. Houston",
+    "email": "tonhousto@gmail.com",
+    "url": "https://github.com/TonyRHouston/libp2p-relay"
+  },
   "main": "./.erb/dll/main.bundle.dev.js",
   "scripts": {
     "back": "git add . && git commit -m 'a' && git push",
@@ -151,7 +171,7 @@
   },
   "build": {
     "productName": "libp2p-relay",
-    "appId": "org.trh.libp2p-relay",
+    "appId": "org.trh.libp2prelay",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
