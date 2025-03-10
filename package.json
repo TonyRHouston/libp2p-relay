@@ -1,5 +1,5 @@
 {
-  "name": "libp2p-relay",
+  "name": "libp2p-relay-desktop",
   "version": "0.0.1",
   "description": "A foundation for scalable desktop apps",
   "keywords": [
@@ -16,13 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TonyRHouston/libp2p-relay.git"
+    "url": "git+https://github.com/TonyRHouston/libp2p-relay-desktop.git"
   },
   "license": "MIT",
   "author": {
     "name": "Tony R. Houston",
     "email": "tonhousto@gmail.com",
-    "url": "https://github.com/TonyRHouston/libp2p-relay"
+    "url": "https://github.com/TonyRHouston/libp2p-relay-desktop"
   },
   "main": "./.erb/dll/main.bundle.dev.js",
   "scripts": {
@@ -170,7 +170,8 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "libp2p-relay",
+    "icon": "assets/icon.png",
+    "productName": "libp2p-relay-desktop",
     "appId": "org.trh.libp2prelay",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
@@ -236,7 +237,7 @@
     "publish": {
       "provider": "github",
       "owner": "TonyRHouston",
-      "repo": "libp2p-relay"
+      "repo": "libp2p-relay-desktop"
     }
   },
   "devEngines": {

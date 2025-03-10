@@ -1,12 +1,12 @@
 {
-  "name": "libp2p-relay",
+  "name": "libp2p-relay-desktop",
   "version": "0.0.1",
   "description": "A light-weight cross-platform relay for libp2p.",
   "license": "MIT",
   "author": {
     "name": "Tony R. Houston",
     "email": "tonhousto@gmail.com",
-    "url": "https://github.com/TonyRHouston/libp2p-relay"
+    "url": "https://github.com/TonyRHouston/libp2p-relay-desktop"
   },
   "main": "./dist/main/main.js",
   "scripts": {
